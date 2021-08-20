@@ -1,7 +1,9 @@
-const algoliaPlacesApiAppId = 'plU4N8HG6QWK';
-const algoliaPlacesApiKey = '1131438afb49f60a48ed468c5af189b8';
-const mapboxApiToken = 'pk.eyJ1Ijoia3Jva3JvYiIsImEiOiJja2YzcmcyNDkwNXVpMnRtZGwxb2MzNWtvIn0.69leM_6Roh26Ju7Lqb2pwQ';
-const taxiFareApiUrl = 'http://localhost:8000/predict';
+const algoliaPlacesApiAppId = '61NJP2B9JX';
+const algoliaPlacesApiKey = 'c814e28e9d890d20f9f9b1bc7c5925ba';
+const mapboxApiToken = 'pk.eyJ1Ijoic2hhbnVkZW5ncmU4MiIsImEiOiJja3NrNWs4dGYwNTdkMnZwZmpzbGRlNm52In0.q6VV6p7N6rLef8oga68-5Q';
+const taxiFareApiUrl = 'https://taxifare.lewagon.ai/predict';
+
+// My name is Shanu Dengre
 
 const displayMap = (start, stop) => {
   mapboxgl.accessToken = mapboxApiToken;
